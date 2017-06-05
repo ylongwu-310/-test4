@@ -1,2 +1,22 @@
-# bkFramework
-```create database aa123 default character set utf8 collate utf8_general_ci;```
+[toc]
+# 蓝鲸官网文档管理
+
+## 文档规范
+
+本文档旨在降低工作成本和规范蓝鲸官网所有对外文档的基本格式及风格。蓝鲸文档书写语法为 Markdown，详细语法请参考 [Google](https://www.google.com.hk/?gws_rd=cr,ssl#newwindow=1&safe=strict&q=markdown)。
+注：本标准参考 腾讯云对外发布标准规范 和 阿里云文档规范
+
+### 1. 字体、颜色规范
+
+
+### 2.标题/列表规范
+
+### 3. 特殊表达及标点规范
+
+### 4. 文档风格规范
+
+### 5.示例
+
+## 文档发布流程
+
+## 注意事项
