@@ -192,9 +192,9 @@
 ```
 SVN地址：https://svn.o.qcloud.com/1253778563/doc/trunk
 
-SVN账户：1792298853
+SVN账户：******
 
-SVN密码：bO6Ddr3401
+SVN密码：******
 ```
 
 #### Jekyll运行环境
