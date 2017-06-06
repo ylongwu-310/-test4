@@ -220,7 +220,7 @@ static 文件夹存放静态文件，比如图片，引用路径 ../static/image
 
 发布文档，请使用 Markdown 格式文件。
 
-#### 文件命名
+#### 文档命名
 
 文件命名格式：[year]-[month]-[day]-[englishName].md
 
@@ -232,9 +232,9 @@ static 文件夹存放静态文件，比如图片，引用路径 ../static/image
 
 4. englishName 英文文档名，比如 bkDevenglishName，建议带上分类信息，不要使用 index，about 等敏感词汇。
 
-#### 文件 ID 说明
+#### 文档 ID 说明
 
-假文件名为：1234-23-21-testName.md
+假设文件名为：1234-23-21-testName.md
 
 文件的 ID 为：342321
 
