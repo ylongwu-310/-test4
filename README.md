@@ -20,10 +20,10 @@
 </tr>
 <tr>
 <td rowspan="2">基本方法论</td>
-<td>关注一致性、准确性（上下文、文字、标点符号与图片）<br><br>把可能使用的名词、缩略语都在文首列出，避免文档中出现从未见过的名词。<br>注意标点的正确使用，截图中出现的文字与说明需保持强一致性。<br><br>
+<td>关注一致性、准确性（上下文、文字、标点符号与图片）<br><br>把可能使用的名词、缩略语都在文首列出，避免文档中出现从未<br>见过的名词。注意标点的正确使用，截图中出现的文字与说明需<br>保持强一致性。<br><br>
 例子：蓝鲸集成平台，又称蓝鲸 PaaS</td>
 <tr>
-<td>清晰、易读<br><br>关注文档结构，构建易读的索引。<br><br>多使用图、表，增强易懂性。同时注意图表的清晰度，规范统一的图表风格</td>
+<td>清晰、易读<br><br>关注文档结构，构建易读的索引。<br><br>多使用图、表，增强易懂性。同时注意图表的清晰度，规范统一<br>的图表风格</td>
 </tr>
 </tbody>
 </table>
@@ -84,7 +84,7 @@
   </tbody>
 </table>
 
-### 特殊表达及标点规范
+### 特殊表达规范
 
 <table>
   <tbody>
@@ -96,32 +96,32 @@
   <tr>
     <td>强调</td>
     <td>粗体+前后空格	</td>
-    <td>非普通文字和短语或重要文字和短语的特殊标记。<br/>您可以 <b>这样</b> 使用强调。</td>
+    <td>非普通文字和短语或重要文字和短语的特殊<br/>标记。您可以 <b>这样</b> 使用强调。</td>
   </tr>
   <tr>
     <td>正文中的参数、<br>表达式或代码</td>
     <td>内联代码	</td>
-    <td>必须使用内联代码标识正文中的参数、表达式或代码。<br>Markdown 语法为 ``<br><br><img src="https://mccdn.qcloud.com/static/img/f9dbb700441f7a407727eb9c6d20a4e8/image.png"></td>
+    <td>必须使用内联代码标识正文中的参数、表达<br/>式或代码。Markdown<br/>语法为 ``<br><br><img src="https://mccdn.qcloud.com/static/img/f9dbb700441f7a407727eb9c6d20a4e8/image.png"></td>
   </tr>
   <tr>
     <td>代码块</td>
-    <td>文档中出现的完整代码	</td>
+    <td>文档中出现的<br>完整代码	</td>
     <td>与正文分开，使用代码块标识。Markdown 语法为``` ```<br><br><img src="https://mccdn.qcloud.com/static/img/05b2ea78c32e165af2922b3a9da54464/image.png"></td>
   </tr>
   <tr>
     <td>界面标志</td>
     <td>【中文方括号】</td>
-    <td>标识 UI 上的指定内容以便识别。<br><br>在【作业执行】下拉菜单中，点击【快速脚本执行】按钮。</td>
+    <td>标识 UI 上的指定内容以便识别。<br><br>在【作业执行】下拉菜单中，点击【快速脚<br>本执行】按钮。</td>
   </tr>
   <tr>
     <td>交叉引用/外链</td>
     <td>超链接</td>
-    <td>多使用超链接进行文档间关系的建立。<br><br>产品文档中引用的链接地址请直接使用绝对路径。</td>
+    <td>多使用超链接进行文档间关系的建立。<br><br>产品文档中引用的链接地址请直接使用绝对<br>路径。<br><br>[link](url){:target="_blank"}</td>
   </tr>
   <tr>
     <td>互斥参数</td>
-    <td>(圆括号 | 和 | 竖 | 线)</td>
-    <td>代码中，分割线表示必须从中选择一个选项的选项集。<br><br>% data = hdfread (start | stride | edge)</td>
+    <td>(a | b | c | d)</td>
+    <td>代码中，分割线表示必须从中选择一个选项<br>的选项集。<br><br>% data = hdfread (start | stride | edge)</td>
   </tr>
   <tr>
     <td>可选参数</td>
@@ -131,7 +131,7 @@
   <tr>
     <td>变量</td>
     <td>	<箭头括号></td>
-    <td>代码中，箭头括号表示必须替换为有效值的变量。<br><br>mount /dev/vdb1 %<%your-mountpoint></td>
+    <td>代码中，箭头括号表示必须替换为有效值的<br>变量。<br><br>mount /dev/vdb1 %<%your-mountpoint></td>
   </tr>
 </tbody>
 </table>
