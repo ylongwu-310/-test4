@@ -1,15 +1,11 @@
 [toc]
-# 蓝鲸官网文档管理准则
+# 蓝鲸官网文档管理系统准则
 
 本文档旨在降低工作成本和规范蓝鲸官网所有对外文档的基本格式及风格。蓝鲸文档书写语法为 Markdown，更多请参考 [Google](https://www.google.com.hk/?gws_rd=cr,ssl#newwindow=1&safe=strict&q=markdown)。
 
 注：本标准参考 [腾讯云对外发布标准规范]()、 [阿里云文档规范]() 和 [AWS文档惯例](http://docs.aws.amazon.com/zh_cn/general/latest/gr/docconventions.html)。
 
-## 文档规范
-
-### 内容规范
-
-文档的组成部分：产品介绍页、产品概述页、快速入门、产品文档
+文档的组成部分：xxx、xxx、xxx、xxx
 
 <table><tbody>
 <tr>
@@ -17,8 +13,8 @@
 <td>以解决用户问题为目标，注重场景化。<br>遵循 5W1H 分析法：<br>（What）这是什么产品？<br>（Who）针对哪些客户群体？<br>（Why）我为什么要使用这个产品？这个产品解决什么问题？<br>（When+Where）使用产品的具体场景是什么？<br>（How）怎么使用这个产品？<br></td>
 </tr>
 <tr>
-<td>流程</td>
-<td>参考 XXXX</td>
+<td>发布流程</td>
+<td>参考 <a href="#publish">发布流程]</a></td>
 </tr>
 <tr>
 <td>文档结构	</td>
@@ -26,13 +22,15 @@
 </tr>
 <tr>
 <td rowspan="2">基本方法论</td>
-<td>关注一致性、准确性（上下文、文字、标点符号与图片）<br><br>把可能使用的名词、缩略语都在文首列出，避免文档中出现从未见过的名词。注意标点的正确使用，截图中出现的文字与说明需保持强一致性。<br><br>
+<td>关注一致性、准确性（上下文、文字、标点符号与图片）<br><br>把可能使用的名词、缩略语都在文首列出，避免文档中出现从未见过的名词。<br>注意标点的正确使用，截图中出现的文字与说明需保持强一致性。<br><br>
 例子：蓝鲸集成平台，又称蓝鲸 PaaS</td>
 <tr>
 <td>清晰、易读<br><br>关注文档结构，构建易读的索引。<br><br>多使用图、表，增强易懂性。同时注意图表的清晰度，规范统一的图表风格</td>
 </tr>
 </tbody>
 </table>
+
+## 文档规范
 
 ### 标题/列表规范
 
@@ -102,9 +100,9 @@
     <td>非普通文字和短语或重要文字和短语的特殊标记。<br/>您可以 <b>这样</b> 使用强调。</td>
   </tr>
   <tr>
-    <td>正文中的参数、表达式或代码</td>
+    <td>正文中的参数、<br>表达式或代码</td>
     <td>内联代码	</td>
-    <td>必须使用内联代码标识正文中的参数、表达式或代码。Markdown 语法为 ``<br><br><img src="https://mccdn.qcloud.com/static/img/f9dbb700441f7a407727eb9c6d20a4e8/image.png"></td>
+    <td>必须使用内联代码标识正文中的参数、表达式或代码。<br>Markdown 语法为 ``<br><br><img src="https://mccdn.qcloud.com/static/img/f9dbb700441f7a407727eb9c6d20a4e8/image.png"></td>
   </tr>
   <tr>
     <td>代码块</td>
@@ -159,7 +157,7 @@
 1. 中英文之间需要增加空格，如：包管理 SaaS，它采用了类似 Git 的版本管理理念。
 2. 中文与数字之间需要增加空格，如：企业标准版拥有 7*24 小时的专属服务。
 3. 数字与单位之间需要增加空格，如：0-100 台服务需要的系统配置至少是 4 核 8 G，/data 盘至少 50 G。
-4. 中文符号与其他字符之间不加空格，蓝鲸智云日志检索产品是为了解决运维场景中查询日志难的问题而推出的一款 SaaS，基于业界主流的……
+4. 中文符号与其他字符之间不加空格，如：蓝鲸智云日志检索产品是为了解决运维场景中查询日志难的问题而推出的一款 SaaS，基于业界主流的……
 5. 链接之间需要增加空格，如：蓝鲸文档书写语法为 Markdown，更多请参考 [Google]()。
 
 #### 标点符号相关
@@ -183,11 +181,12 @@
 
 ## 发布规范
 
+
 ### 环境说明
 
 #### 代码托管
 
-蓝鲸官方文档系统，采用 Jekyll + Nginx 方案部署在腾讯云。文档管理托管在公有云版蓝鲸 PaaS 的 SVN 上。
+蓝鲸官网文档系统，采用 Jekyll + Nginx 方案部署在腾讯云。文档管理托管在公有云版蓝鲸 PaaS 的 SVN 上。
 
 ```
 SVN地址：https://svn.o.qcloud.com/1253778563/doc/trunk
@@ -208,14 +207,13 @@ SVN密码：bO6Ddr3401
 允许更新的 SVN 目录
 
 1. trunk/docs/demo/static
-
 2. trunk/docs/demo/_posts
 
 新建目录，请使用英文目录名。
 
-static 文件夹存放静态文件，比如图片，引用路径 ../static/images/test/test.png。 建议使用压缩工具 [TinyPNG](http://www.tinypng.com), 将图片压缩再引用。 理论上是可以将其他文件，比如视频，pdf 等文件放入其中，但是为了减小服务器带宽压力，建议使用CDN 存放，文档中引用链接。
+static 文件夹存放静态文件，比如图片，引用路径 ../static/images/test/test.png。 建议使用压缩工具 [TinyPNG](http://www.tinypng.com), 将图片压缩再引用。 理论上是可以将其他文件，比如视频，pdf 等文件放入其中，但是为了减小服务器带宽压力，建议使用 CDN 存放，文档中引用链接。
 
-\_posts 文件夹存放文档内容，仅 md 文件。_posts 中的内容将全部被发布到线上，请不要将无关文件提交到 \_posts 文件。草稿请放在trunk/docs/demo/_data 目录下。
+\_posts 文件夹存放文档内容，仅 md 文件。_posts 中的内容将全部被发布到线上，请不要将无关文件提交到 \_posts 文件。草稿请放在 trunk/docs/demo/_data 目录下。
 
 #### 文档格式
 
@@ -223,25 +221,25 @@ static 文件夹存放静态文件，比如图片，引用路径 ../static/image
 
 #### 文件命名
 
-文件命名格式:[year]-[month]-[day]-[englishName].md
+文件命名格式：[year]-[month]-[day]-[englishName].md
 
-1. year 四位数字，比如 1000，建议按照既有顺延
+1. year 四位数字，比如 1000，建议按照既有顺延。
 
-2. month 两位有效月份，比如 01
+2. month 两位有效月份，比如 01。
 
-3. day 两位有效日期，比如 02，建议仅取值 01-28
+3. day 两位有效日期，比如 02，建议仅取值 01-28。
 
-4. englishName 英文文档名，比如 bkDevenglishName，建议带上分类信息，不要使用 index，about 等敏感词汇
+4. englishName 英文文档名，比如 bkDevenglishName，建议带上分类信息，不要使用 index，about 等敏感词汇。
 
-#### 文件ID说明
+#### 文件 ID 说明
 
 假文件名为：1234-23-21-testName.md
 
-文件的ID为：342321
+文件的 ID 为：342321
 
-文件ID是一个六位数字：年份的后两位 + 月 + 日
+文件 ID 是一个六位数字：年份的后两位 + 月 + 日
 
-**请确保文件ID唯一。**
+**请确保文件 ID 唯一。**
 
 #### 文档的显示顺序
 
@@ -251,7 +249,7 @@ static 文件夹存放静态文件，比如图片，引用路径 ../static/image
 
 #### 文档内容
 
-文档的前几行一定要定义meta，比如：
+文档的前几行一定要定义 meta，比如：
 
 ```
 ---
@@ -275,7 +273,7 @@ tag: [FAQ, bkMan]
 8. bkRes，资源下载	
 9. bkFAQ，FAQ
 
-> 如果不是新手入门、ESB 文档、API 文档分类文档，请去掉 tag 中的 bkMan。如果category属于新手入门，ESB文档，API文档之一，请在tag中新增bkMan，将其增加到【开发指南】
+> 如果不是新手入门、ESB 文档、API 文档分类文档，请去掉 tag 中的 bkMan。如果 category 属于新手入门，ESB 文档，API 文档之一，请在 tag 了中新增 bkMan，将其增加到【开发指南】
 
 ### 实践建议
 
@@ -289,14 +287,13 @@ tag: [FAQ, bkMan]
 
 * 根据项目在 static 中新建文件夹存放静态文件
 
-* 写文档时拷贝此模板
-
 * SVN 更新文档要写注释
 
 * h2, h3 标签会生成目录，请合理使用
 
 
 ## 发布流程
+<a id="publish"></a>
 
 ### 权限确认
 
@@ -304,11 +301,11 @@ tag: [FAQ, bkMan]
 
 ### 线上发布
 
-#### 测试环境：
+#### 测试环境
 
 SVN 提交文档之后，测试环境每五分钟发布一次。访问地址，http://test.bk.tencent.com/document/, hosts 配置： `10.229.158.41 test.bk.tencent.com`。
 
-#### 正式环境：
+#### 正式环境
 
 在确定测试环境 OK 之后，请联系 hera 和 shaowen 发布到正式环境。访问地址，http://bk.tencent.com/document/
 
@@ -316,17 +313,9 @@ SVN 提交文档之后，测试环境每五分钟发布一次。访问地址，h
 
 
  
-## 注意
+## 注意事项
 
 1. 内容编辑/审核请遵循文档规范>> 及 语法>> 
 2. 已发布的文章不能删除，以免文章删除引起相关页面链接无法访问。
 3. 
 
-
-
-
-
-
-
- 
- 
