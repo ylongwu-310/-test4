@@ -176,7 +176,7 @@
 ### 示例
 
 *本示例仅供参考此规范中部分条款的使用说明，不保证其对客观事实的描述正确性。
-![](https://mc.qcloudimg.com/static/img/c3ab304e29ec3c2ce3655184438261b0/image.png)
+![](https://raw.githubusercontent.com/shpdnkti/bkFramework/master/example.png)
 
 
 ## 发布规范
