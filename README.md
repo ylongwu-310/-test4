@@ -1,5 +1,7 @@
-[toc]
+
 # 蓝鲸官网文档管理系统准则
+
+[toc]
 
 本文档旨在降低工作成本和规范蓝鲸官网所有对外文档的基本格式及风格。蓝鲸文档书写语法为 Markdown，更多请参考 [Google](https://www.google.com.hk/?gws_rd=cr,ssl#newwindow=1&safe=strict&q=markdown)。
 
@@ -116,7 +118,7 @@
   <tr>
     <td>交叉引用/外链</td>
     <td>超链接</td>
-    <td>多使用超链接进行文档间关系的建立。<br><br>产品文档中引用的链接地址请直接使用绝对<br>路径。<br><br>[link](url){:target="_blank"}</td>
+    <td>多使用超链接进行文档间关系的建立。<br><br>产品文档中引用的链接地址请直接使用绝对<br>路径。并设置为在新窗口中打开链接<br><br>[link](url){:target="_blank"}</td>
   </tr>
   <tr>
     <td>互斥参数</td>
