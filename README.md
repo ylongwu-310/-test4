@@ -5,8 +5,6 @@
 
 注：本标准参考 [腾讯云对外发布标准规范]()、 [阿里云文档规范]() 和 [AWS文档惯例](http://docs.aws.amazon.com/zh_cn/general/latest/gr/docconventions.html)。
 
-文档的组成部分：xxx、xxx、xxx、xxx
-
 <table><tbody>
 <tr>
 <td>总体方针</td>
@@ -18,7 +16,7 @@
 </tr>
 <tr>
 <td>文档结构	</td>
-<td>根据统一的内容框架（请参考XXXX）进行内容补充</td>
+<td>根据统一的内容框架进行内容补充</td>
 </tr>
 <tr>
 <td rowspan="2">基本方法论</td>
@@ -117,7 +115,7 @@
   <tr>
     <td>交叉引用/外链</td>
     <td>超链接</td>
-    <td>多使用超链接进行文档间关系的建立。<br><br>产品文档中引用的链接地址请统一直接拷贝 SVN 中的相对路径，例如XXXXXXXX。</td>
+    <td>多使用超链接进行文档间关系的建立。<br><br>产品文档中引用的链接地址请直接使用绝对路径。</td>
   </tr>
   <tr>
     <td>互斥参数</td>
