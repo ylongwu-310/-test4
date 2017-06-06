@@ -176,7 +176,7 @@
 
 ### 示例
 
-*本示例仅供参考此规范中部分条款的使用说明，不保证其对客观事实的描述正确性。
+* 本示例仅供参考此规范中部分条款的使用说明，不保证其对客观事实的描述正确性。
 ![](https://raw.githubusercontent.com/shpdnkti/bkFramework/master/example.png)
 
 
