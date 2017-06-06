@@ -14,7 +14,7 @@
 </tr>
 <tr>
 <td>发布流程</td>
-<td>参考 <a href="#publish">发布流程]</a></td>
+<td>参考 <a href="#publish">发布流程</a></td>
 </tr>
 <tr>
 <td>文档结构	</td>
