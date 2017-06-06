@@ -314,5 +314,5 @@ SVN 提交文档之后，测试环境每五分钟发布一次。访问地址，h
  
 ## 注意事项
 
-1. 内容编辑/审核请遵循 <a herf="#doc">文档规范</a> 及 <a herf="https://www.google.com.hk/?gws_rd=cr,ssl#newwindow=1&safe=strict&q=markdown">语法</a> 
+1. 内容编辑/审核请遵循 [文档规范](#doc) 及 [语法](https://www.google.com.hk/?gws_rd=cr,ssl#newwindow=1&safe=strict&q=markdown) 
 2. 已发布的文章不能删除，以免文章删除引起相关页面链接无法访问。
