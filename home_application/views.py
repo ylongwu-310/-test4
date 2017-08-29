@@ -3,8 +3,8 @@
 from common.mymako import render_mako_context
 from django.http import HttpResponse
 
-df index(request):
-    return HttpResponse("Hell Word")
+def index(request):
+	return HttpResponse('Hello Word')
 
 def home(request):
     """
