@@ -23,9 +23,9 @@ from django.conf.global_settings import *
 # ==============================================================================
 # 在蓝鲸智云开发者中心 -> 点击应用ID -> 基本信息 中获取 APP_ID 和 APP_TOKEN 的值
 APP_ID = 'bktest'
-APP_TOKEN = 'bd39abf2-6e68-4486-9344-852507339adb'
+APP_TOKEN = '569a73a1-fe76-49c2-8169-f2069dcde8e6'
 # 蓝鲸智云开发者中心的域名，形如：http://paas.bking.com
-BK_PAAS_HOST = 'http://paasce-1.hqhui.cn'
+BK_PAAS_HOST = 'http://paasee-yl.hqhui.cn'
 
 # 是否启用celery任务
 IS_USE_CELERY = True
